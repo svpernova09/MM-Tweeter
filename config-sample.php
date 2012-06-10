@@ -20,6 +20,14 @@ $tbl_secrets = 'secrets';
 $throttle = '4'; //Max Tweets at one time
 $attempts = '3'; //Max attempts to tweet before deletion from pending - do NOT set > 9
 global $attempts;
+$our_consumer_key = '';
+$our_consumer_secret = '';
+$our_user_token = '';
+$our_user_secret = '';
+global $our_consumer_key;
+global $our_consumer_secret;
+global $our_user_token;
+global $our_user_secret;
 $replace_this = array('%3E%22%3E%3Cscript%3Ealert%28123%29%3C%2Fscript%3E%3C%22', '>"><script>alert(123)</script><"', '>\"><script>alert(123)</script><\"', '=>"><script>alert()</script><"', '=>"><script>alert(123);</script><"', '=>"><script>alert(123)</script><"', '<script>alert(123)</script>', '<script>', '</script>', '<script', '<script ', 'script>', 'alert()', 'alert();', 'alert(', '>\"><iframe src=/>', '<iframe', '<iframe src=', '<iframe ', 'iframe>', '</iframe>', '</iframe>', 'iframe', '>\<\"', '> \ " > <  / >', '> \ " >', '<  / >', '">', '" >', '<"', '< "', '/>', '/ >', 'cat EOF', 'curl -L', 'search=Search', 'bsql');
 if(isset($_POST)){
     $PostVars = $_POST;
