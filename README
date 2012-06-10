@@ -1,0 +1,7 @@
+http://wiki.midsouthmakers.org/a/MM-Tweeter
+
+Conditional Auto Tweeter written in PHP
+
+Using OAuth Library by Matt Harris: https://github.com/themattharris/tmhOAuth
+Running via CLI PHP
+Design an application to use Matt Harris' library as a function to auto tweet events based on existing conditions
