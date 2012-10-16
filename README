@@ -1,6 +1,6 @@
 http://wiki.midsouthmakers.org/a/MM-Tweeter
 
-Conditional Auto Tweeter written in PHP
+Conditional Auto Tweeter written in PHP 5.x
 
 Using OAuth Library by Matt Harris: https://github.com/themattharris/tmhOAuth
 Running via CLI PHP
